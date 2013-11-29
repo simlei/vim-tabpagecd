@@ -1,6 +1,6 @@
 *tabpagecd.txt*	Use one tab page per project
 
-Version @@VERSION@@
+Version 0.0.2
 Script ID: 4201
 Copyright (C) 2012 Kana Natsuno <http://whileimautomaton.net/>
 License: So-called MIT/X license  {{{
