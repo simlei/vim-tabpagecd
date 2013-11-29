@@ -1,6 +1,6 @@
 runtime! plugin/tabpagecd.vim
 
-describe 'Basics'
+describe 'tabpagecd'
   before
     let g:cwd = getcwd()
   end
@@ -9,7 +9,7 @@ describe 'Basics'
     cd `=fnameescape(g:cwd)`
   end
 
-  it 'should record/change the current working directory for each tab page'
+  it 'records and restores the current working directory for each tab page'
     Expect exists('t:cwd') toBeFalse
 
     let t:id = 1
