@@ -6,7 +6,7 @@ describe 'tabpagecd'
   end
 
   after
-    cd `=fnameescape(g:cwd)`
+    cd `=g:cwd`
   end
 
   it 'records and restores the current working directory for each tab page'
