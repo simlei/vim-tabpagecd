@@ -1,7 +1,7 @@
-" tabpagecd - Use one tab page per project
-" Version: @@VERSION@@
-" Copyright (C) 2012 Kana Natsuno <http://whileimautomaton.net/>
-" License: So-called MIT/X license  {{{
+" tabpagecd - Turn :cd into :tabpagecd, to use one tab page per project
+" Version: 0.0.2
+" Copyright (C) 2012-2013 Kana Natsuno <http://whileimautomaton.net/>
+" License: MIT License  {{{
 "     Permission is hereby granted, free of charge, to any person obtaining
 "     a copy of this software and associated documentation files (the
 "     "Software"), to deal in the Software without restriction, including
