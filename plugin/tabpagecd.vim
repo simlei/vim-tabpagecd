@@ -1,4 +1,4 @@
-" tabpagecd - Use one tab page per project
+" tabpagecd - Turn :cd into :tabpagecd, to use one tab page per project
 " Version: 0.0.2
 " Copyright (C) 2012-2013 Kana Natsuno <http://whileimautomaton.net/>
 " License: MIT License  {{{

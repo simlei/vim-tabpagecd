@@ -1,4 +1,4 @@
-*tabpagecd.txt*	Use one tab page per project
+*tabpagecd.txt*	Turn :cd into :tabpagecd, to use one tab page per project
 
 Version 0.0.2
 Script ID: 4201
