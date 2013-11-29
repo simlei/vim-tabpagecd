@@ -39,10 +39,18 @@ Changelog               |tabpagecd-changelog|
 ==============================================================================
 INTRODUCTION					*tabpagecd-introduction*
 
-*tabpagecd* is a Vim plugin to use one tab page per project.  It records
-a current working directory for each tab page, and it changes the current
-working directory whenever you activate another tab page.  So that it makes
-easy to deal with project-local files.
+*tabpagecd* is a Vim plugin to turn `:cd` into :tabpagecd.  In other words,
+
+- The current working directory for each tab page is automatically recorded.
+- The current working directory is automatically restored to the recorded one
+  whenever you activate another tab page.
+
+When you work on multiple projects at once, you probably use |tab-page| to
+organize files of each project.  For example, tab page 1 for files in project
+A, while tab page 2 for files in project B.  In this case, you might want to
+set the current working directory per tab page to quickly manipulate files in
+each project.  This plugin makes :cd local to a tab page, like `:lcd` for
+windows.  So that it makes easy to deal with project-local files.
 
 
 Requirements:
