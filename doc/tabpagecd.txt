@@ -103,6 +103,11 @@ BUGS						*tabpagecd-bugs*
 ==============================================================================
 CHANGELOG					*tabpagecd-changelog*
 
+0.0.2	2013-11-29T23:09:35+09:00		*tabpagecd-changelog-0.0.2*
+	- Fix a bug.  Old versions fail to restore the current working
+	  directory for a tab page if the recorded directory path contains
+	  spaces or other fancy characters.
+
 0.0.1	2012-09-01T13:25:17+09:00		*tabpagecd-changelog-0.0.1*
 	- Tidy up the document a bit.
 
