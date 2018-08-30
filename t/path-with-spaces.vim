@@ -2,7 +2,7 @@ runtime! plugin/tabpagecd.vim
 
 describe 'tabpagecd'
   it 'works well with a path with spaces'
-    let cwd = getcwd()
+    let cwd = getcwd(-1)
 
     cd `=cwd . '/plugin'`
     tabnew
@@ -10,10 +10,10 @@ describe 'tabpagecd'
 
     tabnext 1
     Expect t:cwd ==# cwd . '/plugin'
-    Expect getcwd() ==# t:cwd
+    Expect getcwd(-1) ==# t:cwd
 
     tabnext 2
     Expect t:cwd ==# cwd . '/t/sample/spaced path'
-    Expect getcwd() ==# t:cwd
+    Expect getcwd(-1) ==# t:cwd
   end
 end
